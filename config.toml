@@ -1,4 +1,4 @@
-baseurl = "https://noebs.dev"
+baseurl = "no-ebs.github.io"
 languageCode = "en-US"
 title = "Home of noebs"
 Paginate = 5 # Number of posts per page
