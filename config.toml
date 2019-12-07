@@ -1,0 +1,58 @@
+baseurl = "https://noebs.dev"
+languageCode = "en-US"
+title = "Home of noebs"
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+publishDir = "docs"
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Mohamed Yousif" # Author full name
+authorEmail = "mmbusif@gmail.com" # Author email
+
+[params.assets]
+# customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "noebs: it works!" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+codeCopy = true # Add copy button above code blocks
+Description = "Solus is an electronic service provider in Sudan."
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
+
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = "_noebs"
+github = "adonese"
+email = "adonese@noebs.dev"
+linkedin = "adonese"
+facebook = "adonese12"
+instagram = ""
+codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+
+[params.matomoAnalytics]
+siteID = 1
+rootURL = "//matomo.example.com/"
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
+sectionPagesMenu = "noebs_menu"
