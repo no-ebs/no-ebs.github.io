@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home of noebs</title>
-    <link>https://noebs.dev/</link>
+    <link>/</link>
     <description>Recent content on Home of noebs</description>
     <generator>Hugo - gohugo.io</generator>
     <language>en</language>
     <contact>mmbusif@gmail.com</contact>
     <copyright></copyright>
     
-        <atom:link href="https://noebs.dev/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Posts</title>
-      <link>https://noebs.dev/post/</link>
+      <link>/post/</link>
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0200</pubDate>
       <author>Mohamed Yousif</author>
-      <guid>https://noebs.dev/post/</guid>
+      <guid>/post/</guid>
       <description></description>
       
       <content></content>
@@ -25,10 +25,10 @@
     
     <item>
       <title>errors</title>
-      <link>https://noebs.dev/errors/</link>
+      <link>/errors/</link>
       <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
       <author>Mohamed Yousif</author>
-      <guid>https://noebs.dev/errors/</guid>
+      <guid>/errors/</guid>
       <description></description>
       
       <content>&lt;table&gt;
@@ -444,10 +444,10 @@
     
     <item>
       <title>about</title>
-      <link>https://noebs.dev/about/</link>
+      <link>/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       <author>Mohamed Yousif</author>
-      <guid>https://noebs.dev/about/</guid>
+      <guid>/about/</guid>
       <description>this is a description about about page meta</description>
       
       <content></content>
@@ -456,10 +456,10 @@
     
     <item>
       <title>contact</title>
-      <link>https://noebs.dev/contact/</link>
+      <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>Mohamed Yousif</author>
-      <guid>https://noebs.dev/contact/</guid>
+      <guid>/contact/</guid>
       <description></description>
       
       <content>
