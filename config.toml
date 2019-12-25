@@ -1,9 +1,9 @@
-baseurl = "no-ebs.github.io/no-ebs.github.io"
+baseurl = ""
 languageCode = "en-US"
 title = "Home of noebs"
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
-publishDir = "docs"
+publishDir = "deploy"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
