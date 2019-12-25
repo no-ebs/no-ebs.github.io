@@ -20,7 +20,7 @@ homeTitle = "noebs: it works!" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
 codeCopy = true # Add copy button above code blocks
-Description = "Solus is an electronic service provider in Sudan."
+Description = "Noebs is an open source payment gateway in Sudan. It connects with all banks in Sudan and it offers clean and simple API for developers and businesses to build on top of it."
 [params.features]
 disqusOnDemand = true  # Load Disqus comments on click
 

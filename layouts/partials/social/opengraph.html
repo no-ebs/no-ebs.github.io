@@ -2,7 +2,7 @@
 <meta property='og:description' content='{{ partial "data/description" . }}'>
 <meta property='og:url' content='{{ .Permalink }}'>
 <meta property='og:site_name' content='{{ .Site.Title }}'>
-<meta property='og:image' content="{{/noebs_logo.jpg | absURL}}">
+<meta property='og:image' content="/noebs_logo.jpg">
 <meta property='og:type' content='
   {{- if .IsPage -}}
     article
@@ -10,15 +10,6 @@
     website
   {{- end -}}
 '>
-
-{{- with .Params.image -}}
-<meta property='og:image' content='{{ . | absURL }}'>
-{{- else -}}
-{{- with .Site.Params.Social.email -}}
-<meta property='og:image' content='https://www.gravatar.com/avatar/
-        {{- . | md5 -}}
-        ?s=256'>
-{{- end -}}
 
 {{- with .Params.audios -}}
 {{- range first 6 . -}}
@@ -45,7 +36,6 @@
 <meta property='article:section' content='{{- .Section | title -}}'>
 {{- range .Params.tags -}}
 <meta property='article:tag' content='{{ . }}'>
-{{- end -}}
 {{- end -}}
 
 {{- $dateFormat := "2006-01-02T15:04:05Z07:00" -}}
